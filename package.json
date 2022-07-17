@@ -1,0 +1,22 @@
+{
+  "name": "expressplayground",
+  "version": "1.0.0",
+  "description": "uh idk wat im doing",
+  "main": "yes",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayPreak/expressplayground.git"
+  },
+  "author": "me?",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayPreak/expressplayground/issues"
+  },
+  "homepage": "https://github.com/jayPreak/expressplayground#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
