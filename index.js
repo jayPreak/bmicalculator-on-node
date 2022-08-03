@@ -5,6 +5,8 @@ const port = 3000
 
 app.use(bodyParser.urlencoded({extended: true}))
 
+app.set("view engine", "ejs")
+
 app.get('/', (req, res) => {
   res.sendFile(__dirname + "/index.html")
 })
@@ -32,8 +34,8 @@ app.post('/', (req, res) => {
      }
 
 
-
-  res.send(result + ", your bmi is: " + bmi)
+  res.render("index", {result:result,bmi:bmi})
+  // res.send(result + ", your bmi is: " + bmi)
 })
 
 app.use(express.static(__dirname))
